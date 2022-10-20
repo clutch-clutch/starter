@@ -104,7 +104,7 @@
         </section>
 
         <div class="story__pictures">
-            <img src="src/img/story-1.jpeg" alt="Couple with new house" class="soty__img--1">
+            <img src="src/img/story-1.jpeg" alt="Couple with new house" class="story__img--1">
             <img src="src/img/story-2.jpeg" alt="New house" class="story__img--2">
         </div>
 
@@ -124,7 +124,7 @@
                     <use xlink:href="src/img/sprite.svg#icon-heart-full"></use>
                 </svg>
                 <h5 class="home__name">Beautiful Family House</h5>
-                <div class="home__location">
+                       <div class="home__location">
                     <svg>
                         <use xlink:href="src/img/sprite.svg#icon-map-pin"></use>
                     </svg>
@@ -148,7 +148,7 @@
                     </svg>
                     <p>$1,200,000</p>
                 </div>
-                <button class="btn home_btn">Contact realtor</button>
+                <button class="btn home__btn">Contact realtor</button>
             </div>
 
             <div class="home">
@@ -181,7 +181,7 @@
                     </svg>
                     <p>$2,750,000</p>
                 </div>
-                <button class="btn_home__btn">Contact realtor</button>
+                <button class="btn home__btn">Contact realtor</button>
             </div>
 
             <div class="home">
@@ -190,7 +190,7 @@
                     <use xlink:href="src/img/sprite.svg#icon-heart-full"></use>
                 </svg>
                 <h5 class="home__name">Cozy Country House</h5>
-                <div class="home__locatino">
+                <div class="home__location">
                     <svg>
                         <use xlink:href="src/img/sprite.svg#icon-map-pin"></use>
                     </svg>
@@ -225,7 +225,7 @@
                 <h5 class="home__name">Large Rustical Villa</h5>
                 <div class="home__location">
                     <svg>
-                        <use xlink:href="src/img/sprite.svg#icon-map-pin"><</use>
+                        <use xlink:href="src/img/sprite.svg#icon-map-pin"></use>
                     </svg>
                     <p>Portygal</p>
                 </div>
@@ -272,7 +272,7 @@
                     <svg>
                         <use xlink:href="src/img/sprite.svg#icon-expand"></use>
                     </svg>
-                    <p>4230 m</sup>2</sup></p>
+                    <p>4230 m<sup>2</sup></p>
                 </div>
                 <div class="home__price">
                     <svg>
@@ -301,19 +301,19 @@
                     </svg>
                     <p>3 rooms</p>
                 </div>
-                <div class="home_area">
+                <div class="home__area">
                     <svg>
                         <use xlink:href="src/img/sprite.svg#icon-expand"></use>
                     </svg>
                     <p>180 m<sup>2</sup></p>
                 </div>
-                <div class="home_price">
+                <div class="home__price">
                     <svg>
                         <use xlink:href="src/img/sprite.svg#icon-key"></use>
                     </svg>
                     <p>$600,000</p>
-                </div>div>
-                <button class="btn home_btn">Contact realtor</button>
+                </div>
+                <button class="btn home__btn">Contact realtor</button>
             </div>
         </section>
 
@@ -369,7 +369,7 @@
 
             function openModal(index) {
                 modal.style.display = "block";
-                modalImg.src = 'src/imgg/gal-' + index + '.jpeg';
+                modalImg.src = 'src/img/gal-' + index + '.jpeg';
                 // captionText.innerHTML = imgAlt;
                 modalImg.alt = 'Gallery image ' + index;
             }
